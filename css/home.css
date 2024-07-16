@@ -199,9 +199,105 @@
     font-size: 20px;
 }
 
-.winner {
-    background-repeat: no-repeat;
+.winner_circles{
     position: relative;
+    width: 500px;
+    aspect-ratio: 1 / 1;
+}
+.winner_lavel1__Ut3vc {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: block;
+    border-radius: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/img/REPROGRAM.png');
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+.winner_lavel1__Ut3vc:hover {
+    scale: 1.02;
+}
+.winner_circleInner__1Ce0C{
+    padding: 20px;
+}
+.winner_lavel2__7SNtm {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    background-color: #44aef5;
+    display: block;
+    border-radius: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('/img/mentorship.png');
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+.winner_lavel2__7SNtm:hover {
+    scale: 1.02;
+}
+.winner_lavel3__LGVYE {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    background-color: #0c2106;
+    display: block;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+.winner_circleInner__1Ce0C {
+    padding: 20px;
+}
+.winner_text__Jtid8 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+.winner_lock__Qna8v {
+    background-color: #0000007b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 50px;
+    opacity: 0;
+    cursor: not-allowed;
+    transition: all .5s ease-in-out;
+}
+.winner_lavel3__LGVYE:hover .winner_lock__Qna8v {
+    opacity: 1;
+}
+.pos-style{
+    position: absolute;
+    top: -145px;
+    right: -145px;
+    z-index: -11;
 }
 
 .program {
@@ -213,7 +309,9 @@
 .mentor {
     position: absolute;
 }
-
+.win-box{
+    width: 424px;
+}
 .growMain {
     display: flex;
     justify-content: center;
@@ -224,10 +322,9 @@
     background: #fff;
     z-index: 3;
     max-width: 1263px;
-    margin-inline: 50px;
     padding: 80px 142px 60px;
     position: absolute;
-    max-width: 1425px;
+    width: 100%;
     bottom: 50px;
 }
 
@@ -280,7 +377,9 @@
     width: auto;
     bottom: 222px;
 }
-
+.p-120{
+    padding: 120px 0;
+}
 .p-80 {
     padding: 80px 0px;
 }
@@ -371,6 +470,39 @@
     .SocialBox img {
         width: 50%;
     }
+    .winner_text__Jtid8 {
+        font-size: 7px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #000;
+    }
+    .winner_circleInner__1Ce0C p {
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+    .p-120{
+        padding: 80px 0;
+    }
+    .pos-style img{
+        height: 424px;
+    }
+    .pos-style {
+        position: absolute;
+        top: -96px !important;
+        right: -64px !important;
+        z-index: -11 !important;
+    }
+    .SocialBox {
+        background-color: #ffffff00;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 200px;
+        padding: 0px 0px;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+    }
 
 }
 
@@ -380,11 +512,12 @@
     }
 
     .SocialBox {
-        width: 0px;
+        width: 130px;
+        gap: 4px;
     }
 
     .SocialBox img {
-        width: 50%;
+        width: 3    0%;
     }
 
     .socialgrow {
@@ -405,6 +538,12 @@
 
     .pos_ab2 h4 {
         font-size: 18px;
+    }
+    .pos-style{
+        position: absolute;
+        top: -145px;
+        right: -135px;
+        z-index: -11;
     }
 }
 
