@@ -42,12 +42,14 @@
     font-family: 'Blanka';
     src: url('../font/Blanka-Regular.otf');
 }
-.shaedow{
+
+.shaedow {
     box-shadow: 0px 0px 5px #ccccccb4;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     background-color: #d9d3d373 !important;
-} 
+}
 
 /* custom font  */
 .Blanka {
@@ -199,11 +201,12 @@
     font-size: 20px;
 }
 
-.winner_circles{
+.winner_circles {
     position: relative;
     width: 500px;
     aspect-ratio: 1 / 1;
 }
+
 .winner_lavel1__Ut3vc {
     width: 100%;
     height: 100%;
@@ -222,12 +225,15 @@
     text-decoration: none;
     transition: all .5s ease-in-out;
 }
+
 .winner_lavel1__Ut3vc:hover {
     scale: 1.02;
 }
-.winner_circleInner__1Ce0C{
+
+.winner_circleInner__1Ce0C {
     padding: 20px;
 }
+
 .winner_lavel2__7SNtm {
     width: 70%;
     height: 70%;
@@ -245,9 +251,11 @@
     text-decoration: none;
     transition: all .5s ease-in-out;
 }
+
 .winner_lavel2__7SNtm:hover {
     scale: 1.02;
 }
+
 .winner_lavel3__LGVYE {
     width: 40%;
     height: 40%;
@@ -267,12 +275,14 @@
 .winner_circleInner__1Ce0C {
     padding: 20px;
 }
+
 .winner_text__Jtid8 {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #000;
 }
+
 .winner_lock__Qna8v {
     background-color: #0000007b;
     position: absolute;
@@ -290,10 +300,12 @@
     cursor: not-allowed;
     transition: all .5s ease-in-out;
 }
+
 .winner_lavel3__LGVYE:hover .winner_lock__Qna8v {
     opacity: 1;
 }
-.pos-style{
+
+.pos-style {
     position: absolute;
     top: -145px;
     right: -145px;
@@ -309,9 +321,11 @@
 .mentor {
     position: absolute;
 }
-.win-box{
+
+.win-box {
     width: 424px;
 }
+
 .growMain {
     display: flex;
     justify-content: center;
@@ -377,9 +391,11 @@
     width: auto;
     bottom: 222px;
 }
-.p-120{
+
+.p-120 {
     padding: 120px 0;
 }
+
 .p-80 {
     padding: 80px 0px;
 }
@@ -397,6 +413,25 @@
     width: 100%;
     background-position: center;
 }
+
+
+@media (min-width: 320px) {
+    .pos-style1 {
+        position: absolute;
+        top: -52px !important;
+        right: 43px !important;
+        z-index: -11 !important;
+    }
+}
+@media (min-width: 425px) {
+    .pos-style1 {
+        position: absolute;
+        top: -52px !important;
+        right: 72px !important;
+        z-index: -11 !important;
+    }
+}
+
 
 @media (max-width: 576px) {
     .email {
@@ -470,28 +505,41 @@
     .SocialBox img {
         width: 50%;
     }
+
     .winner_text__Jtid8 {
-        font-size: 7px;
+        font-size: 10px;
         text-transform: uppercase;
         font-weight: 700;
         color: #000;
     }
+
     .winner_circleInner__1Ce0C p {
         margin-top: 0;
         margin-bottom: 0rem;
     }
-    .p-120{
-        padding: 80px 0;
+
+    .p-120 {
+        padding: 70px 0;
     }
-    .pos-style img{
+
+    .pos-style img {
         height: 424px;
     }
+
     .pos-style {
         position: absolute;
         top: -96px !important;
         right: -64px !important;
         z-index: -11 !important;
     }
+
+    .pos-style1 {
+            position: absolute;
+            top: -41px ;
+            right: 27px ;
+            z-index: -11 ;
+    }
+
     .SocialBox {
         background-color: #ffffff00;
         display: flex;
@@ -517,7 +565,7 @@
     }
 
     .SocialBox img {
-        width: 3    0%;
+        width: 3 0%;
     }
 
     .socialgrow {
@@ -539,7 +587,8 @@
     .pos_ab2 h4 {
         font-size: 18px;
     }
-    .pos-style{
+
+    .pos-style {
         position: absolute;
         top: -145px;
         right: -135px;
@@ -555,9 +604,11 @@
     .about-img {
         width: 50% !important;
     }
+
     .pos_ab2 h3 {
         font-size: 20px;
     }
+
     .pos_ab2 h4 {
         font-size: 18px;
     }
