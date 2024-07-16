@@ -39,6 +39,9 @@
 .shaedow{
     box-shadow: 0px 0px 5px #ccccccb4;
 }
+.navbar-toggler{
+    background-color: #d9d3d373 !important;
+} 
 
 .form-data {
     width: 100%;
