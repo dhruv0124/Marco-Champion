@@ -419,7 +419,15 @@
     .pos-style1 {
         position: absolute;
         top: -52px !important;
-        right: 43px !important;
+        right: 54px !important;
+        z-index: -11 !important;
+    }
+}
+@media (min-width: 375px) {
+    .pos-style1 {
+        position: absolute;
+        top: -52px !important;
+        right: 68px !important;
         z-index: -11 !important;
     }
 }
@@ -427,7 +435,7 @@
     .pos-style1 {
         position: absolute;
         top: -52px !important;
-        right: 72px !important;
+        right: 91px !important;
         z-index: -11 !important;
     }
 }
