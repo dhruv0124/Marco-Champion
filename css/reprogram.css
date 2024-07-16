@@ -56,10 +56,10 @@
     width: 100%;
 }
 .carousel-control-prev {
-    left: -100px !important;
+    left: -44px !important;
 }
 .carousel-control-next {
-    right: -100px !important;
+    right: -44px !important;
 }
 .carousel-indicators {
     bottom: -50px !important;
@@ -128,14 +128,13 @@
 }
 
 /*  */
-.carousel-control-next {
-    right: 135px !important;
+/* .carousel-control-next {
+    left: 50px !important;
 }
 .carousel-control-prev {
     left: 135px !important;
 }
-
-
+*/
 
 
 
@@ -150,6 +149,12 @@
     }
     .fs-20{
         font-size: 14px !important;
+    }
+    .carousel-control-prev {
+        left: -9px !important;
+    }
+    .carousel-control-next {
+        right: -9px !important;
     }
 }
 
@@ -187,14 +192,16 @@
     .fs-20{
         font-size: 18px
     }
-    .carousel-control-prev {
-        left: 20px !important;
-    }
-    .carousel-control-next {
-        right: 20px !important;
-    }
+    
 }
 
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+    .carousel-control-prev {
+        left: 12px ;
+    }
+    .carousel-control-next {
+        right: 12px ;
+    }
+}
 
 @media (max-width: 1024px) {}
