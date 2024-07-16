@@ -12,6 +12,7 @@
     width: 100%;
     padding: 10px 0px;
 }
+
 .cout {
     font-size: 16px;
     font-weight: 700;
@@ -20,17 +21,19 @@
     font-family: sans-serif;
     text-align: center;
 }
+
 .join_btn {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
+
 .now-btn {
     background-color: #216023 !important;
     color: white !important;
     padding: 10px 15px !important;
-    text-decoration: none !important ;
+    text-decoration: none !important;
     border-radius: 10px !important;
 }
 
@@ -39,10 +42,15 @@
     font-family: 'Blanka';
     src: url('../font/Blanka-Regular.otf');
 }
+.shaedow{
+    box-shadow: 0px 0px 5px #ccccccb4;
+}
+
 /* custom font  */
-.Blanka{
+.Blanka {
     font-family: Blanka;
 }
+
 .body_img {
     background-image: url('/img/main.png');
     height: 1000px;
@@ -50,31 +58,36 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
+
 @font-face {
     font-family: 'sprite';
     src: url('../font/Sprite Graffiti.otf');
 }
-.sprite{font-family: sprite;}
+
+.sprite {
+    font-family: sprite;
+}
 
 
 
 /* body */
 
-.letter-spacing{
+.letter-spacing {
     letter-spacing: 5px;
-}   
+}
+
 .color_brown {
     color: #c19752;
 }
-.bg-img1{
+
+.bg-img1 {
     background: url('/img/Background-Special.png');
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
-.pos_ab1{
+
+.pos_ab1 {
     position: absolute;
     top: 13px;
     color: #fff;
@@ -85,7 +98,8 @@
     font-weight: 500;
     letter-spacing: 2px;
 }
-.pos_ab2{
+
+.pos_ab2 {
     position: absolute;
     bottom: 16px;
     color: #fff;
@@ -93,7 +107,8 @@
     width: 100%;
     text-align: center;
 }
-.box::before{
+
+.box::before {
     content: "";
     position: absolute;
     top: 0;
@@ -102,10 +117,12 @@
     bottom: 0;
     background: linear-gradient(180deg, rgba(0, 62, 129, 0), #000);
 }
-.box:hover::before{
+
+.box:hover::before {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0), #00000000);
 }
-.email{
+
+.email {
     padding-block: 14px;
     font-size: 16px;
     width: 630px;
@@ -113,41 +130,49 @@
     background-color: #fff;
     text-align: center;
 }
-.contact_btn{
+
+.contact_btn {
     background-color: #c19752;
     padding: 15px 50px;
     letter-spacing: 3px;
     color: rgb(255, 255, 255);
 }
-.contact_btn:hover{
+
+.contact_btn:hover {
     background-color: black;
 }
-.bg-img2{
+
+.bg-img2 {
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('/img/homebio.png');
     width: 100%;
 }
-.fs-14{
+
+.fs-14 {
     font-size: 14px;
- }  
-.disco-btn{
+}
+
+.disco-btn {
     padding: 10px 20px !important;
-    border: 1px solid #eea023 !important ;
+    border: 1px solid #eea023 !important;
     background-color: none !important;
 }
-.disco-btn:hover{
+
+.disco-btn:hover {
     color: white;
     background-color: #c19752;
 }
 
-.color-green{
+.color-green {
     color: green;
 }
-.community{
+
+.community {
     font-weight: 700;
     font-size: 70px;
     letter-spacing: .02em;
 }
-.phone{
+
+.phone {
     padding-block: 14px;
     font-size: 16px;
     width: 400px;
@@ -155,36 +180,44 @@
     background-color: #fff;
     text-align: center;
 }
-.community_btn{
+
+.community_btn {
     background-color: black;
     padding: 15px 50px;
     color: white;
     border: 2px solid white;
 }
-.ftk{
+
+.ftk {
     font-size: 24px;
 }
-.bts{
+
+.bts {
     font-size: 20px;
 }
-.winner{
+
+.winner {
     background-repeat: no-repeat;
     position: relative;
 }
-.program{
+
+.program {
     position: absolute;
     top: 199px;
     left: 412px;
 }
-.mentor{
+
+.mentor {
     position: absolute;
 }
-.growMain{
+
+.growMain {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.socialgrow{
+
+.socialgrow {
     background: #fff;
     z-index: 3;
     max-width: 1263px;
@@ -194,6 +227,7 @@
     max-width: 1425px;
     bottom: 50px;
 }
+
 .socialgrow:after {
     content: "";
     position: absolute;
@@ -209,13 +243,15 @@
     opacity: .5;
     z-index: -1;
 }
-.growSocial{
+
+.growSocial {
     display: flex;
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
 }
-.SocialBox{
+
+.SocialBox {
     background-color: #f3f5f8;
     display: flex;
     align-items: center;
@@ -226,36 +262,42 @@
     text-decoration: none;
     color: inherit;
 }
-.socialName{
+
+.socialName {
     display: flex;
     flex-direction: column;
     margin: 0px;
     font-size: 20px;
     font-weight: 700;
 }
-.footer img{
+
+.footer img {
     position: absolute;
     height: 100%;
     width: auto;
     bottom: 222px;
 }
-.p-80{
+
+.p-80 {
     padding: 80px 0px;
 }
-.about-img{
-   width: 100%;
+
+.about-img {
+    width: 100%;
 }
-.row{
-    --bs-gutter-x: 0rem !important; 
+
+.row {
+    --bs-gutter-x: 0rem !important;
 }
-.sig-img{
+
+.sig-img {
     background-image: url('/img/Signature.png');
     width: 100%;
     background-position: center;
 }
 
 @media (max-width: 576px) {
-    .email{
+    .email {
         padding-block: 14px;
         font-size: 16px;
         width: 280px;
@@ -263,12 +305,14 @@
         background-color: #fff;
         text-align: center;
     }
-    .community{
+
+    .community {
         font-weight: 700;
         font-size: 50px;
         letter-spacing: .02em;
     }
-    .phone{
+
+    .phone {
         padding-block: 14px;
         font-size: 16px;
         width: 320px;
@@ -276,75 +320,104 @@
         background-color: #fff;
         text-align: center;
     }
-    .fs-14{
+
+    .fs-14 {
         font-size: 12px;
-     } 
-    .community_btn{
+    }
+
+    .community_btn {
         background-color: black;
         padding: 10px 30px;
         color: white;
-        border: 2px solid white;    
-        
+        border: 2px solid white;
+
     }
-    .contact_btn{
+
+    .contact_btn {
         padding: 10px 20px;
         letter-spacing: 2px;
     }
-    .ftk{
+
+    .ftk {
         font-size: 14px !important;
     }
-    .bts{
+
+    .bts {
         font-size: 12px;
     }
+
     .cout {
         font-size: 8px;
     }
+
     .now-btn {
         background: #216023 !important;
         color: white !important;
         padding: 2px 6px !important;
         font-size: 8px !important;
     }
+
     .join_btn {
         gap: 3px;
     }
-    .SocialBox h4{
+
+    .SocialBox h4 {
         display: none;
     }
-    .SocialBox img{
+
+    .SocialBox img {
         width: 50%;
     }
-    
+
 }
 
 @media (max-width: 768px) {
-    .ftk{
+    .ftk {
         font-size: 14px;
     }
-    .SocialBox{
+
+    .SocialBox {
         width: 0px;
     }
-    .SocialBox img{
+
+    .SocialBox img {
         width: 50%;
     }
-    .socialgrow{
+
+    .socialgrow {
         padding: 80px 0px 60px;
     }
-    .socialName h4{
+
+    .socialName h4 {
         font-size: 14px;
     }
-    .bts{
+
+    .bts {
         font-size: 14px;
     }
-    
+
+    .pos_ab2 h3 {
+        font-size: 20px;
+    }
+
+    .pos_ab2 h4 {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 1024px) {
-    .socialgrow{
+    .socialgrow {
         padding: 80px 27px 60px;
     }
-    .about-img{
-        width: 50% !important; 
+
+    .about-img {
+        width: 50% !important;
     }
-    
+    .pos_ab2 h3 {
+        font-size: 20px;
+    }
+    .pos_ab2 h4 {
+        font-size: 18px;
+    }
+
 }

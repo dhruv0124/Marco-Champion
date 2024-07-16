@@ -36,8 +36,9 @@
 .row {
     --bs-gutter-x: 0rem !important;
 }
-
-
+.shaedow{
+    box-shadow: 0px 0px 5px #ccccccb4;
+}
 
 .form-data {
     width: 100%;
@@ -191,6 +192,7 @@
 .img{
     width:50%;
 }
+
 
 
 /* responsive */

@@ -11,6 +11,10 @@
     font-family: 'Blanka';
     src: url('../font/Blanka-Regular.otf');
 }
+.shaedow{
+    box-shadow: 0px 0px 5px #ccccccb4;
+}
+
 /* custom font  */
 .Blanka{
     font-family: Blanka;
