@@ -1,0 +1,249 @@
+/* faq */
+.accordion {
+    background-color: #303030 !important;
+    color: #fff !important;
+    border-color: red !important;
+    border-width: 0 !important;
+    border-color: #323030 !important;
+    border-width: var(--bs-border-width-none) !important;
+     border-width: var(--bs-border-width); 
+    border-radius: var(--bs-border-radius);
+    --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    padding: 1rem 1.25rem;
+    --bs-accordion-btn-color: var(--bs-body-color);
+    --bs-accordion-btn-bg: var(--bs-accordion-bg);
+    --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+    --bs-accordion-btn-icon-width: 1.25rem;
+    --bs-accordion-btn-icon-transform: rotate(-180deg);
+    --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+    --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23052c65'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+    --bs-accordion-btn-focus-border-color: #86b7fe;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    --bs-accordion-body-padding-x: 1.25rem;
+    --bs-accordion-body-padding-y: 1rem;
+    --bs-accordion-active-color: var(--bs-primary-text-emphasis);
+    --bs-accordion-active-bg: var(--bs-primary-bg-subtle);
+}
+.accordion-button:not(.collapsed) {
+    color: white !important ;
+    background-color: #303030 !important;
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+.accordion-item {
+    color: #fff !important;
+    background-color: #303030 !important;
+    border: 1px solid #303030 !important;
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: ;
+    font-size: 1rem;
+    color: white !important;
+    text-align: left;
+    background-color: #323030 !important;
+    border: 1px solid #303030 !important;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+.accordion-header {
+    margin: 48px;
+    border: 1px solid #4d4c4c !important;
+    border-radius: 16px !important;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .2), 0 4px 20px 0 rgba(0, 0, 0, .19) !important;
+    width: 93% !important;
+    background-color: transparen !important;
+    color: #fff !important;
+    text-align: center !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 16px 0 !important;
+    margin-bottom: 10px !important;
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 18px !important;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+.accordion-body {
+    padding: 10px 69px !important;
+    line-height: 36px !important;
+    font-size: 18px !important;
+    color: gray !important;
+}
+
+
+
+
+html
+
+<div class="container-fluid bg-black py-5">
+            <div class="container">
+                <div class="text-white text-center">
+                    <h1 class="Blanka mb-4 fs-40">FAQS</h1>
+                </div>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                    <!-- 1  -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                What is Winners Circle?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                The Winners Circle Is A Community Designed To Foster Success And Growth. At Its Heart
+                                Lies Our Inner Circle, Comprised Of Accomplished Multi-Millionaires Dedicated To
+                                Supporting And Empowering One Another. Surrounding This Core Is Our Outer Circle,
+                                Consisting Of Individuals Seeking To Reprogram Their Minds And Receive Mentorship To
+                                Elevate Their Success. Together, We Embody Our Core Values Of PASSION, PURPOSE, And
+                                PROGRESS, Uniting Us In Our Pursuit Of Excellence And Achievement.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                How Long is the Bootcamp?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                90 Days
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Why is it called Reprogram?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                The Name "Reprogram" Reflects The Transformative Nature Of Our Program. Through Daily
+                                Habits And Practices, Reprogram Works To Rewire Your Mind, Instilling A Pattern Of
+                                Positive, Success-Driven Thoughts. By Reshaping Your Mindset, You Pave The Way For
+                                Increased Success And Fulfillment In All Areas Of Your Life.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFour">
+                                What's the Science Behind the Tools used in the Bootcamp?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body">
+                                The Tools Utilized In The Bootcamp Are Grounded In Scientific Principles Aimed At
+                                Optimizing Human Potential. Each Tool Is Carefully Designed To Leverage Insights From
+                                Fields Such As Neuroscience, Psychology, And Behavioral Science To Facilitate Personal
+                                Growth And Development.
+
+                                For Example:
+
+                                Affirmations And Auto-Suggestion: These Techniques Draw Upon Principles Of
+                                Neuroplasticity And Cognitive-Behavioral Therapy (CBT). By Consistently Reinforcing
+                                Positive Beliefs And Thoughts, Individuals Can Rewire Their Neural Pathways, Leading To
+                                Lasting Changes In Behavior And Mindset.
+                                <br><br>
+                                Journaling: Journaling Is Supported By Research In Cognitive Psychology And
+                                Self-Reflection. It Provides A Structured Framework For Exploring Thoughts And Emotions,
+                                Enhancing Self-Awareness, And Identifying Patterns That May Be Hindering Personal
+                                Growth.
+                                <br><br>
+                                Meditation: Techniques Such As Mindfulness Meditation Have Been Shown To Modulate Brain
+                                Activity, Reduce Stress, And Improve Focus And Attention.
+                                <br><br>
+                                Visualization: Visualization Techniques Capitalize On The Brain's Ability To Simulate
+                                Experiences Mentally. By Vividly Imagining Desired Outcomes, Individuals Activate Neural
+                                Networks Associated With Goal Pursuit, Increasing Motivation And Confidence.
+                                <br><br>
+                                Goal Setting And Action Planning: These Tools Are Grounded In Principles Of Goal Theory
+                                And Behavioral Economics. By Setting Specific, Measurable, Achievable, Relevant, And
+                                Time-Bound (SMART) Goals And Creating Action Plans, Individuals Increase Their
+                                Likelihood Of Success By Providing Clarity, Direction, And Accountability.
+                                <br><br>
+                                Overall, The Tools Used In The Bootcamp Are Informed By Scientific Research And Theory,
+                                Empowering Participants To Unlock Their Full Potential And Achieve Meaningful Personal
+                                And Professional Growth.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFive">
+                                When does the Bootcamp Launch?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFive">
+                            <div class="accordion-body">
+                                2024
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseSix">
+                                What’s the Money Back Guarantee Policy?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingSix">
+                            <div class="accordion-body">
+                                We Stand Behind Our Program And Are Committed To Your Success. If, After Diligently
+                                Following The Program For 45 Days, You Haven't Seen The Results You Expected, You Can
+                                Request A Refund. Your Refund Will Be Processed Promptly Within 5 Business Days Of
+                                Receiving Your Refund Request. We Believe In The Effectiveness Of Our Program And Want
+                                To Ensure Your Satisfaction And Success.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
