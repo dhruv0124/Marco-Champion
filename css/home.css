@@ -406,7 +406,7 @@
 }
 
 .about-img {
-    width: 85%;
+    width: 116%;
 }
 
 .row {
@@ -417,6 +417,7 @@
     background-image: url('/img/Signature.png');
     width: 100%;
     background-position: center;
+    background-repeat: no-repeat;
 }
 .aboutEd_Ed{
     color: #fff;
