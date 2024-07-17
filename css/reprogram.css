@@ -363,6 +363,7 @@
         border-radius: 10px 10px 10px 10px;
         transition: 250ms;
         cursor: pointer;
+    }
         
 }
 
@@ -375,5 +376,3 @@
         right: 12px;
     }
 }
-
-@media (max-width: 1024px) {}
