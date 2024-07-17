@@ -50,9 +50,9 @@
                 <h1 class="Blanka text-center text-white mb-5">Contact</h1>
                 <div class="form-data">
                     <form action="" class="contactPage">
-                        <div class="FieldWraper_">
+                        <div class="FieldWraper">
                             <h1>NAME <span>(REQUIRED)</span></h1>
-                            <div class="NameInputs d-md-flex">
+                            <div class="NameInputs d-flex">
                                 <div><input class="InputTextFields" type="text" name="first">
                                     <h1 class="formFontStyle">FIRST</h1>
                                 </div>
@@ -61,7 +61,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="FieldWraper_">
+                        <div class="FieldWraper">
+                            <h1>EMAIL <span>(REQUIRED)</span></h1>
+                            <div class="NameInputs">
+                                <div><input class="InputTextFields" type="Email" name="email"></div>
+                            </div>
+                        </div>
+                        <div class="FieldWraper">
                             <h1>PHONE <span>(REQUIRED)</span></h1>
                             <div class="NameInputs">
                                 <div><input class="InputTextFields" type="tel" name="phone"></div>
@@ -92,10 +98,9 @@
                         <div class="FieldWraper">
                             <h1>MESSAGE <span>(REQUIRED)</span></h1><textarea type="text" class="textarea"></textarea>
                         </div>
-                        <div class="SubmitButtonWrapper"><button type="submit" class="submitButton">SUBMIT</button>
-                        </div>
                     </form>
                 </div>
+                <div class="SubmitButtonWrapper"><button type="submit" class="submitButton">SUBMIT</button></div>
             </div>
         </div>
 
@@ -104,7 +109,7 @@
             <div class="row">
                 <div class="text-center">
                     <img class="mb-2 img" src="/img/CHAMP_WEEKLY.svg" alt="">
-                    <h1 class="text-white fs-30 fw-bold mb-3">SIGN UP FOR MY WEEKLY NEWSLETTER</h1>
+                    <h1 class="text-white fs-30 mb-3">SIGN UP FOR MY WEEKLY NEWSLETTER</h1>
                     <input class="email" type="email" name="" id="" placeholder="Your Email">
                     <div class="text-center mt-4 ">
                         <a href="/" class="subscribe  text-decoration-none">SUBSCRIBE</a>
@@ -114,11 +119,12 @@
         </div>
 
 
-        <!-- footer -->
+        <!-- footer ✔ -->
         <div class="container-fuild bg-black p-80 ">
+            <div class="container"></div>
             <div class="row align-items-center">
-                <div class="col-md-6 col-12 p-4 text-center ">
-                    <h1 class="text-white font-fam2 mb-mb-0 mb-3 Blanka">STAY MOTIVATED</h1>
+                <div class="col-md-6 col-12 p-4 text-center order-md-1  order-2">
+                    <h1 class="text-white mb-mb-0 mb-3 Blanka">STAY MOTIVATED</h1>
                     <div class="">
                         <ul class="ps-0 d-flex gap-2 justify-content-center">
                             <a href=""><img class="" src="/img/Youtube.png" width="50px" alt=""></a></li>
@@ -128,14 +134,14 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 text-center position-relative">
+                <div class="col-md-6 col-12 text-center position-relative sig-img order-md-2  order-1">
                     <ul class="ps-0 mt-0 d-md-flex gap-4  justify-content-center">
                         <li class="mb-4"><a class="text-white sprite mb-md-0  fs-4 text-decoration-none"
                                 href="/mystory.html">Mystory</a></li>
                         <li class="mb-4"><a class="text-white sprite mb-md-0  fs-4 text-decoration-none"
                                 href="/reprogram.html">Reprogram</a></li>
                         <li class="mb-4"><a class="text-white sprite mb-md-0  fs-4 text-decoration-none"
-                                href="/shop">Shop</a></li>
+                                href="/shop.html">Shop</a></li>
                         <li class="mb-4"><a class="text-white sprite mb-md-0  fs-4 text-decoration-none"
                                 href="/contact.html">Contact</a></li>
                     </ul>

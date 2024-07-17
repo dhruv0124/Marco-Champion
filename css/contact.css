@@ -152,7 +152,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px auto;
+    margin: 0px auto;
 }
 
 .submitButton {
@@ -193,12 +193,19 @@
     color: white;
 }
 .img{
-    width:50%;
+    width:30%;
 }
 
 
 
 /* responsive */
+
+@media (max-width: 320px) {
+    .img{
+        width: 70% !important;
+    }
+
+}
 @media (max-width: 575.98px) {
     .email {
         padding-block: 14px;
@@ -208,28 +215,28 @@
         background-color: #fff;
         text-align: center;
     }
-    .fs-30 {
-        font-size: 20px !important;
-    }
-    .img{
-        width: 80%;
-    }
 }
 
 @media (max-width: 768.98px) {
     .formFontStyle {
         font-size: 14px !important;
     }
-
     .fs-30 {
-        font-size: 25px;
+        font-size: 18px;
     }
-
     .contactPage h1 {
         font-weight: 400;
         font-size: 20px;
     }
-
+    .img{
+        width: 50% !important;
+    }
+    .subscribe {
+        background-color: #c19752;
+        padding: 10px 30px;
+        color: white;
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 991.98px) {}
