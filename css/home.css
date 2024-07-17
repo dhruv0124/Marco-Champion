@@ -89,7 +89,7 @@
 
 .bg-img1 {
     background: url('/img/Background-Special.png');
-    width: 100%;
+    height: auto ;
 }
 
 .pos_ab1 {
@@ -406,7 +406,7 @@
 }
 
 .about-img {
-    width: auto%;
+    width: auto;
 }
 
 .row {
@@ -466,7 +466,7 @@
 
     .community {
         font-weight: 700;
-        font-size: 50px;
+        font-size: 48px;
         letter-spacing: .02em;
     }
 
@@ -634,9 +634,9 @@
         padding: 80px 27px 60px;
     }
 
-    /* .about-img {
+    .about-img {
         width: 50% !important;
-    } */
+    }
 
     .pos_ab2 h3 {
         font-size: 20px;
