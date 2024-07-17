@@ -406,7 +406,7 @@
 }
 
 .about-img {
-    width: 116%;
+    width: auto%;
 }
 
 .row {
@@ -634,9 +634,9 @@
         padding: 80px 27px 60px;
     }
 
-    .about-img {
+    /* .about-img {
         width: 50% !important;
-    }
+    } */
 
     .pos_ab2 h3 {
         font-size: 20px;
