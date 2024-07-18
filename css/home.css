@@ -414,12 +414,9 @@
     --bs-gutter-x: 0rem !important;
 }
 
-.sig-img {
-    background-image: url('/img/Signature.png');
-    width: 50% !important;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
+
+
 .aboutEd_Ed{
     color: #fff;
     font-weight: 200;
@@ -456,6 +453,8 @@
 
 
 @media (max-width: 576px) {
+
+  
     .email {
         padding-block: 14px;
         font-size: 16px;

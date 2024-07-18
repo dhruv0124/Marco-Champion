@@ -195,7 +195,12 @@
 .img{
     width:30%;
 }
-
+.sig-img {
+    background-image: url('/img/Signature.png');
+    width: 50% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
 
