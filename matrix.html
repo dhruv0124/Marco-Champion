@@ -12,8 +12,8 @@
 
 <body>
 
-      <!-- hdr ✔✔ -->
-      <div class="">
+    <!-- hdr ✔✔ -->
+    <div class="">
         <nav class="navbar navbar-expand-lg navbar-light bg-black shaedow fixed-top mb-5">
             <div class="container ">
                 <a class="navbar-brand" href="#"><img src="/img/logo.svg" alt=""></a>
@@ -46,10 +46,10 @@
     </div>
 
     <!--  -->
-    <div class="container-fluid bg-img mt-5 p-80">
+    <div class="container-fluid bg-img mt-5 p-80" onclick="popupFn()" >
         <div class="container">
             <div class="row">
-                
+
                 <div class="matrix_GIFVideo">
                     <img src="/img/Matrix-Thumbnail.gif" alt="">
                 </div>
@@ -59,7 +59,33 @@
     </div>
 
     <!-- popup -->
-     
+    <div>
+        <div class="popup_container__mpykH popup_open__5QDO5" id="overlay">
+            <div class="popup_overlay__G0_Yl"
+                style="z-index: 1000; display: flex; justify-content: center; align-items: center;">
+                <div class="popup_card__CEm5j">
+                    <div class="popup_close__TCw8j" onclick="closeFn()" >
+                        <svg  stroke="currentColor" fill="currentColor" stroke-width="0"
+                            viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M405 136.798L375.202 107 256 226.202 136.798 107 107 136.798 226.202 256 107 375.202 136.798 405 256 285.798 375.202 405 405 375.202 285.798 256z">
+                            </path>
+                        </svg></div>
+                    <div class="popup_textBox___zAmZ" style="width: 100%;">
+                        <div>
+                            <div style="text-align: start; font-size: 20px; font-weight: bold;">input code to access
+                                rabbit whole</div>
+                            <div><input class="popup_input__z5n53" placeholder="Input Code " type="text" name="email">
+                            </div>
+                            <div><button>Access</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- footer ✔ -->
     <div class="container-fuild bg-black p-80 position-relative">
@@ -86,6 +112,14 @@
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        function popupFn() {
+            document.getElementById("overlay").style.display = "block";
+        }
+        function closeFn() {
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
