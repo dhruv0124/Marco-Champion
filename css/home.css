@@ -13,6 +13,8 @@
     padding: 10px 0px;
 }
 
+
+
 .cout {
     font-size: 16px;
     font-weight: 700;
@@ -55,7 +57,7 @@
 .Blanka {
     font-family: Blanka;
 }
-
+ 
 .body_img {
     background-image: url('/img/main.png');
     height: 1000px;
@@ -74,7 +76,6 @@
 .sprite {
     font-family: sprite;
 }
-
 
 
 /* body */
