@@ -41,16 +41,10 @@
     background-color: #d9d3d373 !important;
 }
 
-/* body */
-/* .white-box{
-    background-color: white;
-    padding: 20px;
-    width: 40%;
-} */
-.pos-ab {
+
+.shopPage_textBox__KmOEJ {
     position: absolute;
-    bottom: 13%;
-    left: 290px;
+    bottom: 6%;
     border-radius: 4px;
     z-index: 100;
     background-color: #fff;
@@ -63,26 +57,15 @@
     flex-direction: column;
     align-items: center;
     line-height: 30px;
-    width: 24%;
+    width: 23%;
 }
 
-.pos-ab1 {
-    position: absolute;
-    bottom: 15%;
-    right: 230px;
-    border-radius: 4px;
-    z-index: 100;
-    background-color: #fff;
-    padding: 12px;
-    font-size: 24px;
-    box-shadow: 0 10px 15px -3px #000, 0 4px 6px -4px #000;
-    font-family: sans-serif;
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 30px;
-    width: 24%;
+.shopPage_lefttextBox__WBId0 {
+    left: 20%;
+}
+
+.shopPage_righttextBox__BQSUm {
+    right: 20%;
 }
 
 .color-green {
@@ -124,52 +107,41 @@
         font-size: 26px !important;
     }
 }
+
 @media (min-width: 375px) {
     .fs-40 {
         font-size: 30px !important;
     }
 
-    .pos-ab {
-        bottom: 30%;
-        left: 27px;
-        width: 34%;
-        line-height: 18px;
-    }
-
-    .fs-18 {
+    .shopPage_textBox__KmOEJ {
         font-size: 12px;
+        
     }
 
-    /* .pos-ab1{
-        bottom: 19%;
-        right: 144px;
-        width: 28%;
-    } */
+}
+
+.fs-18 {
+    font-size: 12px;
+}
+
+@media (max-width: 575.98px) {
+    .shopPage_textBox__KmOEJ {
+        font-size: 12px !important;
+        line-height: 20px;
+        width: 30%;
+    }
+    .shopPage_lefttextBox__WBId0 {
+        left: 12%;
+    }
+    
+    .shopPage_righttextBox__BQSUm {
+        right: 12%;
+    }
 }
 
 @media (max-width: 768.98px) {
-    .pos-ab {
-        bottom: 16%;
-        left: 135px;
-        width: 26%;
-    }
 
-    .pos-ab1 {
-        bottom: 19%;
-        right: 144px;
-        width: 28%;
-    }
-}
-
-
-@media (min-width: 1024px) {
-    .pos-ab {
-        bottom: 15%;
-        left: 179px;
-    }
-
-    .pos-ab1 {
-        bottom: 17%;
-        right: 187px;
+    .shopPage_textBox__KmOEJ {
+        font-size: 18px;
     }
 }
