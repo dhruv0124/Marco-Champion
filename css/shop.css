@@ -119,10 +119,14 @@
 }
 
 
-
-@media (min-width: 425px) {
+@media (min-width: 320px) {
     .fs-40 {
-        font-size: 30px;
+        font-size: 26px !important;
+    }
+}
+@media (min-width: 375px) {
+    .fs-40 {
+        font-size: 30px !important;
     }
 
     .pos-ab {
