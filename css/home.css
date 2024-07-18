@@ -451,10 +451,10 @@
         z-index: -11 !important;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 1399px) {
     .about-img {
         width: 110%;
-        margin-top: 0px !important;
+        margin-top: 112px !important;
     }
 }
 
