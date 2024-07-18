@@ -460,7 +460,7 @@
 @media (max-width: 576px) {
 
     .about-img {
-        width: 110%;
+        width: 50%;
         margin-top: 0px;
     }
     
@@ -599,6 +599,7 @@
     .SocialBox {
         width: 130px;
         gap: 4px;
+        padding: 4px 13px;
     }
 
     .SocialBox img {
@@ -645,7 +646,7 @@
     }
 
     .about-img {
-        width: 50% !important;
+        width: 40% !important;
     }
 
     .pos_ab2 h3 {
@@ -655,5 +656,6 @@
     .pos_ab2 h4 {
         font-size: 18px;
     }
-
 }
+
+ 
