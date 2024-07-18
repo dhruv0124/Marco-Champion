@@ -414,8 +414,19 @@
 .row {
     --bs-gutter-x: 0rem !important;
 }
-
-
+.winner_BottomImg__UWIh6 {
+    position: absolute;
+    bottom: 70px;
+    right: 22%;
+}
+.winner_BottomImg__UWIh6 img {
+    transition: all .5s ease-in-out;
+    scale: .8;
+    width: 80px;
+}
+.winner_BottomImg__UWIh6:hover img {
+    scale: 1;
+}
 
 
 .aboutEd_Ed{
@@ -587,6 +598,14 @@
         text-transform: uppercase;
         letter-spacing: .1rem;
         font-weight: 600;
+    }
+    .winner_BottomImg__UWIh6 {
+        position: absolute;
+        bottom: 19px;
+        right: 12px;
+    }
+    .winner_BottomImg__UWIh6 img {
+        width: 50px;
     }
 
 }
