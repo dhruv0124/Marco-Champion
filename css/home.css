@@ -406,7 +406,8 @@
 }
 
 .about-img {
-    width: auto;
+    width: 110%;
+    margin-top: 117px;
 }
 
 .row {
