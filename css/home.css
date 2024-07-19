@@ -7,14 +7,107 @@
 }
 
 /* top hdr css */
+.modal-header{
+    border-bottom: none !important;
+}
+.modal-body {
+    position: relative;
+    /* flex: 1 1 auto; */
+    padding: 0 10px !important;
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 74% !important;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+}
 .header_img {
     background-image: url('/img/topHeader.png');
     width: 100%;
     padding: 10px 0px;
 }
+.popup_container__mpykH.popup_open__5QDO5 {
+    animation: popup_fadeIn__pTEQh .5s ease-in-out forwards;
+}
+.popup_overlay__G0_Yl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .419);
+    backdrop-filter: blur(2px);
+}
+.popup_card__CEm5j {
+    background-color: #fff;
+    position: relative;
+    padding: 1rem 1.5rem;
+    width: calc(400px - 2rem);
+    display: flex;
+    align-items: center;
+}
+.popup_close__TCw8j {
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.popup_textBox___zAmZ {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 23px 0;
+}
+.popup_textBox___zAmZ h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: #006400;
+}
+.popup_textBox___zAmZ h2 {
+    text-align: center;
+    font-size: 18px;
+}
+.popup_input__z5n53 {
+    border: 2px solid #d3d3d3;
+    width: calc(100% - 0rem);
+    margin-top: .7rem;
+    background-color: hsla(0, 0%, 94%, .709);
+    height: 2.7rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+.popup_textBox___zAmZ button {
+    margin-top: .8rem;
+    width: 100%;
+    height: 2.7rem;
+    border: none;
+    background-color: #006400;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.popup_checkBox__o0H3G {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    align-items: start;
+    margin-top: 1rem;
+    font-size: .8rem;
+}
 
 
-
+/*  */
 .cout {
     font-size: 16px;
     font-weight: 700;
@@ -57,7 +150,7 @@
 .Blanka {
     font-family: Blanka;
 }
- 
+
 .body_img {
     background-image: url('/img/main.png');
     height: 1000px;
@@ -75,6 +168,7 @@
 
 .sprite {
     font-family: sprite;
+    word-spacing: 10px !important;
 }
 
 
@@ -90,7 +184,7 @@
 
 .bg-img1 {
     background: url('/img/Background-Special.png');
-    height: auto ;
+    height: auto;
 }
 
 .pos_ab1 {
@@ -98,7 +192,7 @@
     top: 13px;
     color: #fff;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     left: 0%;
     width: 100%;
     font-weight: 500;
@@ -121,12 +215,25 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, rgba(0, 62, 129, 0), #000);
+    background: linear-gradient(180deg, rgba(0, 62, 129, 0), #000) ;
 }
 
 .box:hover::before {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0), #00000000);
 }
+
+/* .box1{
+    width: 100% ;
+    overflow: hidden !important;
+}
+.box1 img{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+.box1 img:hover{
+    transform: scale(1.1);
+
+} */
 
 .email {
     padding-block: 14px;
@@ -143,12 +250,14 @@
     letter-spacing: 3px;
     color: rgb(255, 255, 255);
 }
+
 .become h4 {
     font-size: 1.38rem;
     text-transform: uppercase;
     letter-spacing: .5rem;
     font-weight: 600;
-}    
+}
+
 .contact_btn:hover {
     background-color: black;
 }
@@ -200,7 +309,7 @@
 }
 
 .ftk {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .bts {
@@ -383,7 +492,7 @@
     color: inherit;
 }
 
-.socialName {
+.socialName h4 {
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -414,22 +523,25 @@
 .row {
     --bs-gutter-x: 0rem !important;
 }
+
 .winner_BottomImg__UWIh6 {
     position: absolute;
     bottom: 70px;
     right: 22%;
 }
+
 .winner_BottomImg__UWIh6 img {
     transition: all .5s ease-in-out;
     scale: .8;
     width: 80px;
 }
+
 .winner_BottomImg__UWIh6:hover img {
     scale: 1;
 }
 
 
-.aboutEd_Ed{
+.aboutEd_Ed {
     color: #fff;
     font-weight: 200;
     font-size: 14px;
@@ -446,6 +558,7 @@
         z-index: -11 !important;
     }
 }
+
 @media (min-width: 375px) {
     .pos-style1 {
         position: absolute;
@@ -454,6 +567,7 @@
         z-index: -11 !important;
     }
 }
+
 @media (min-width: 425px) {
     .pos-style1 {
         position: absolute;
@@ -462,6 +576,7 @@
         z-index: -11 !important;
     }
 }
+
 @media (min-width: 1399px) {
     .about-img {
         width: 110%;
@@ -475,7 +590,7 @@
         width: 50%;
         margin-top: 0px;
     }
-    
+
     .email {
         padding-block: 14px;
         font-size: 16px;
@@ -518,7 +633,7 @@
     }
 
     .ftk {
-        font-size: 14px !important;
+        font-size: 18px !important;
     }
 
     .bts {
@@ -540,12 +655,20 @@
         gap: 3px;
     }
 
-    .SocialBox h4 {
-        display: none;
-    }
-
+   
     .SocialBox img {
-        width: 50%;
+        width: 85% !important;
+    }
+    .SocialBox {
+        background-color: none;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 200px;
+        padding: 0px 0px;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
     }
 
     .winner_text__Jtid8 {
@@ -576,34 +699,29 @@
     }
 
     .pos-style1 {
-            position: absolute;
-            top: -41px ;
-            right: 27px ;
-            z-index: -11 ;
+        position: absolute;
+        top: -41px;
+        right: 27px;
+        z-index: -11;
     }
 
-    .SocialBox {
-        background-color: #ffffff00;
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        width: 200px;
-        padding: 0px 0px;
-        cursor: pointer;
-        text-decoration: none;
-        color: inherit;
+    .SocialBox h4{
+        display: none;
     }
+
     .become h4 {
         font-size: 12px;
         text-transform: uppercase;
         letter-spacing: .1rem;
         font-weight: 600;
     }
+
     .winner_BottomImg__UWIh6 {
         position: absolute;
         bottom: 19px;
         right: 12px;
     }
+
     .winner_BottomImg__UWIh6 img {
         width: 50px;
     }
@@ -611,20 +729,11 @@
 }
 
 @media (max-width: 768px) {
-    
+
     .ftk {
         font-size: 14px;
     }
-
-    .SocialBox {
-        width: 130px;
-        gap: 4px;
-        padding: 4px 13px;
-    }
-
-    .SocialBox img {
-        width: 3 0%;
-    }
+    
 
     .socialgrow {
         padding: 80px 0px 60px;
@@ -652,6 +761,7 @@
         right: -135px;
         z-index: -11;
     }
+
     .become h4 {
         font-size: 14px;
         text-transform: uppercase;
@@ -659,7 +769,7 @@
         font-weight: 600;
     }
 }
-    
+
 @media (max-width: 1024px) {
     .socialgrow {
         padding: 80px 27px 60px;
@@ -677,5 +787,3 @@
         font-size: 18px;
     }
 }
-
- 
