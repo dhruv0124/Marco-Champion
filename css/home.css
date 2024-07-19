@@ -670,14 +670,14 @@
 
 
     .SocialBox img {
-        width: 85% !important;
+        width: 70% !important;
     }
 
     .SocialBox {
         background-color: #f3f5f8;
         display: flex;
         align-items: center;
-        gap: 6px;
+        gap: 45px;
         width: 200px;
         padding: 0px 0px;
         cursor: pointer;
