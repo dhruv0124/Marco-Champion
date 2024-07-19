@@ -184,6 +184,9 @@
     word-spacing: 10px !important;
 }
 
+.word-space{
+    word-spacing: 10px;
+}
 
 /* body */
 
@@ -590,12 +593,7 @@
     }
 }
 
-/* @media (min-width: 1399px) {
-    .about-img {
-        width: 110%;
-        margin-top: 112px !important;
-    }
-} */
+
 
 @media (max-width: 576px) {
 
@@ -802,7 +800,7 @@
     }
 
     .about-img {
-        width: 100% !important;
+        width: 110% !important;
     }
 
     .pos_ab2 h3 {
