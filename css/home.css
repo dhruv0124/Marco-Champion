@@ -529,8 +529,8 @@
 }
 
 .about-img {
-    width: 110%;
-    margin-top: 117px;
+    width: 40%;
+    margin-top: 0px;
 }
 
 .row {
@@ -590,12 +590,12 @@
     }
 }
 
-@media (min-width: 1399px) {
+/* @media (min-width: 1399px) {
     .about-img {
         width: 110%;
         margin-top: 112px !important;
     }
-}
+} */
 
 @media (max-width: 576px) {
 
@@ -802,7 +802,7 @@
     }
 
     .about-img {
-        width: 40% !important;
+        width: 100% !important;
     }
 
     .pos_ab2 h3 {
