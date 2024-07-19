@@ -7,14 +7,16 @@
 }
 
 /* top hdr css */
-.modal-header{
+.modal-header {
     border-bottom: none !important;
 }
+
 .modal-body {
     position: relative;
     /* flex: 1 1 auto; */
     padding: 0 10px !important;
 }
+
 .modal-content {
     position: relative;
     display: flex;
@@ -28,14 +30,17 @@
     border-radius: var(--bs-modal-border-radius);
     outline: 0;
 }
+
 .header_img {
     background-image: url('/img/topHeader.png');
     width: 100%;
     padding: 10px 0px;
 }
+
 .popup_container__mpykH.popup_open__5QDO5 {
     animation: popup_fadeIn__pTEQh .5s ease-in-out forwards;
 }
+
 .popup_overlay__G0_Yl {
     position: absolute;
     top: 0;
@@ -45,6 +50,7 @@
     background-color: rgba(0, 0, 0, .419);
     backdrop-filter: blur(2px);
 }
+
 .popup_card__CEm5j {
     background-color: #fff;
     position: relative;
@@ -53,6 +59,7 @@
     display: flex;
     align-items: center;
 }
+
 .popup_close__TCw8j {
     position: absolute;
     right: .5rem;
@@ -60,6 +67,7 @@
     font-size: 1.5rem;
     cursor: pointer;
 }
+
 .popup_textBox___zAmZ {
     height: 100%;
     display: flex;
@@ -67,16 +75,19 @@
     gap: 15px;
     margin: 23px 0;
 }
+
 .popup_textBox___zAmZ h1 {
     text-align: center;
     font-size: 28px;
     font-weight: 800;
     color: #006400;
 }
+
 .popup_textBox___zAmZ h2 {
     text-align: center;
     font-size: 18px;
 }
+
 .popup_input__z5n53 {
     border: 2px solid #d3d3d3;
     width: calc(100% - 0rem);
@@ -86,6 +97,7 @@
     padding: 0 1rem;
     font-size: 1rem;
 }
+
 .popup_textBox___zAmZ button {
     margin-top: .8rem;
     width: 100%;
@@ -97,6 +109,7 @@
     font-weight: 700;
     cursor: pointer;
 }
+
 .popup_checkBox__o0H3G {
     display: flex;
     justify-content: start;
@@ -215,7 +228,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, rgba(0, 62, 129, 0), #000) ;
+    background: linear-gradient(180deg, rgba(0, 62, 129, 0), #000);
 }
 
 .box:hover::before {
@@ -655,15 +668,16 @@
         gap: 3px;
     }
 
-   
+
     .SocialBox img {
         width: 85% !important;
     }
+
     .SocialBox {
-        background-color: none;
+        background-color: #f3f5f8;
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 6px;
         width: 200px;
         padding: 0px 0px;
         cursor: pointer;
@@ -705,7 +719,7 @@
         z-index: -11;
     }
 
-    .SocialBox h4{
+    .SocialBox h4 {
         display: none;
     }
 
@@ -728,12 +742,12 @@
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
     .ftk {
         font-size: 14px;
     }
-    
+
 
     .socialgrow {
         padding: 80px 0px 60px;
@@ -741,6 +755,18 @@
 
     .socialName h4 {
         font-size: 14px;
+    }
+
+    .SocialBox {
+        background-color: #f3f5f8;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        width: 192px;
+        padding: 0px 10px;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
     }
 
     .bts {
@@ -770,7 +796,7 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .socialgrow {
         padding: 80px 27px 60px;
     }
