@@ -533,8 +533,7 @@
 }
 
 .about-img {
-    width: 40%;
-    margin-top: 0px;
+    width: 110%;
 }
 
 .row {
@@ -600,12 +599,6 @@
 
 @media (max-width: 576px) {
     
-
-    .about-img {
-        width: 50%;
-        margin-top: 0px;
-    }
-
     .email {
         padding-block: 14px;
         font-size: 16px;
@@ -750,7 +743,6 @@
         font-size: 28px;
     }
    
-  
     .socialgrow {
         padding: 80px 0px 60px;
     }
@@ -813,15 +805,20 @@
     .socialName h4 {
         font-size: 14px;
     }
+    .about-img{
+        width: 40%;
+    }
+}
+
+@media (max-width : 1024px) {
+    .about-img{
+        width: 40%;
+    }
 }
 
 @media (min-width: 1024px) {
     .socialgrow {
         padding: 80px 27px 60px;
-    }
-
-    .about-img {
-        width: 40% !important;
     }
 
     .pos_ab2 h3 {
